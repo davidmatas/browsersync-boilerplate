@@ -1,0 +1,10 @@
+body {
+  align-items: center;
+  background: #f0f8ff;
+  display: flex;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  height: 100vh;
+  justify-content: center; }
+  body h1 {
+    font-size: 32px;
+    text-align: center; }

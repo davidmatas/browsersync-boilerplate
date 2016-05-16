@@ -1,0 +1,16 @@
+{
+  "name": "davidmatas",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass scss/style.scss dist/css/style.css",
+    "watch": "npm run css -- -w & browser-sync start --server dist --files \"**/*.css, **/*.html\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "node-sass": "^3.4.2"
+  }
+}

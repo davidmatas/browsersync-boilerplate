@@ -1,0 +1,15 @@
+$back-color: #f0f8ff;
+
+body {
+  align-items: center;
+  background: $back-color;
+  display: flex;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  height: 100vh;
+  justify-content: center;
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
